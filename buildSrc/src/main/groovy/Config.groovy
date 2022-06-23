@@ -3,16 +3,15 @@ class Config {
     static applicationId = 'com.blankj.androidutilcode'
     static appName = 'Util'
 
-    static compileSdkVersion = 29
+    static compileSdkVersion = 32
     static minSdkVersion = 14
-    static targetSdkVersion = 29
+    static targetSdkVersion = 32
     static versionCode = 1_030_007
     static versionName = '1.31.0'// E.g. 1.9.72 => 1,009,072
 
     // lib version
-    static gradlePluginVersion = '4.1.0'
-    static kotlinVersion = '1.3.72'
-    static androidxVersion = '1.0.0'
+    static gradlePluginVersion = '7.1.2'
+    static kotlinVersion = '1.6.20'
 
     static modules = [
             /*Don't delete this line*/
@@ -60,10 +59,10 @@ class Config {
     ]
 
     static libs = [
-            androidx_appcompat : new LibConfig(path: "androidx.appcompat:appcompat:$androidxVersion"),
-            androidx_material  : new LibConfig(path: "com.google.android.material:material:$androidxVersion"),
-            androidx_multidex  : new LibConfig(path: "androidx.multidex:multidex:2.0.0"),
-            androidx_constraint: new LibConfig(path: "androidx.constraintlayout:constraintlayout:1.1.3"),
+            androidx_appcompat : new LibConfig(path: "androidx.appcompat:appcompat:1.4.2"),
+            androidx_material  : new LibConfig(path: "com.google.android.material:material:1.6.1"),
+            androidx_multidex  : new LibConfig(path: "androidx.multidex:multidex:2.0.1"),
+            androidx_constraint: new LibConfig(path: "androidx.constraintlayout:constraintlayout:2.1.4"),
 
             kotlin             : new LibConfig(path: "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlinVersion"),
 
@@ -73,8 +72,8 @@ class Config {
             swipe_panel        : new LibConfig(path: "com.blankj:swipe-panel:1.2"),
 
             gson               : new LibConfig(path: "com.google.code.gson:gson:2.8.5"),
-            glide              : new LibConfig(path: "com.github.bumptech.glide:glide:4.7.1"),
-            retrofit           : new LibConfig(path: "com.squareup.retrofit2:retrofit:2.4.0"),
+            glide              : new LibConfig(path: "com.github.bumptech.glide:glide:4.13.0"),
+            retrofit           : new LibConfig(path: "com.squareup.retrofit2:retrofit:2.9.0"),
             commons_io         : new LibConfig(path: "commons-io:commons-io:2.6"),
 
             eventbus_lib       : new LibConfig(path: "org.greenrobot:eventbus:3.1.1"),

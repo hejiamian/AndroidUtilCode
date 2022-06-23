@@ -6,9 +6,13 @@ buildscript {
         google()
         mavenCentral()
         jcenter()
+        maven {
+            url 'https://maven.google.com'
+        }
     }
 
     dependencies {
+        classpath 'com.android.tools.build:gradle:7.1.2'
         for (def entrySet : ConfigUtils.getApplyPlugins().entrySet()) {
             classpath entrySet.value.path
         }
@@ -22,6 +26,9 @@ allprojects {
         google()
         mavenCentral()
         jcenter()
+        maven {
+            url 'https://maven.google.com'
+        }
     }
 
     configurations.all {
