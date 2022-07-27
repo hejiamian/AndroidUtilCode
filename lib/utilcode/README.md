@@ -72,6 +72,8 @@ getAppName
 getAppPath
 getAppVersionName
 getAppVersionCode
+getAppMinSdkVersion
+getAppTargetSdkVersion
 getAppSignatures
 getAppSignaturesSHA1
 getAppSignaturesSHA256
@@ -140,6 +142,7 @@ getNavBarColor
 isSupportNavBar
 setNavBarLightMode
 isNavBarLightMode
+transparentNavBar
 ```
 
 * ### About Brightness -> [BrightnessUtils.java][brightness.java] -> [Demo][brightness.demo]

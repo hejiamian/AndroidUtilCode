@@ -6,7 +6,7 @@ Gradle:
 implementation 'com.blankj:utilcodex:1.31.0'
 
 // Not in maintenance
-implementation 'com.blankj:utilcode:1.30.6'
+implementation 'com.blankj:utilcode:1.30.7'
 ```
 
 
@@ -72,6 +72,8 @@ getAppName                        : 获取 App 名称
 getAppPath                        : 获取 App 路径
 getAppVersionName                 : 获取 App 版本号
 getAppVersionCode                 : 获取 App 版本码
+getAppMinSdkVersion               : 获取 App 支持最低系统版本号
+getAppTargetSdkVersion            : 获取 App 目标系统版本号
 getAppSignatures                  : 获取 App 签名
 getAppSignaturesSHA1              : 获取应用签名的的 SHA1 值
 getAppSignaturesSHA256            : 获取应用签名的的 SHA256 值
@@ -141,6 +143,7 @@ getNavBarColor                       : 获取导航栏颜色
 isSupportNavBar                      : 判断是否支持导航栏
 setNavBarLightMode                   : 设置导航栏是否为浅色模式
 isNavBarLightMode                    : 判断导航栏是否为浅色模式
+transparentNavBar                    : 透明导航栏
 ```
 
 * ### 亮度相关 -> [BrightnessUtils.java][brightness.java] -> [Demo][brightness.demo]
